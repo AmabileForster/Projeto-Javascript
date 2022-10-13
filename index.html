@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/ff7bc2e5d1.js" crossorigin="anonymous"></script>
+  <link href="./assets/libs/animate/animate.min.css" rel="stylesheet" />
+  <link href="./assets/libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./assets/libs/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="./assets/libs/slick/slick-theme.css"/>
+  <link href="./assets/css/style.css" rel="stylesheet">
+  <link href="./assets/css/medias.css" rel="stylesheet">
+  <title>Alles Blau</title>
+</head>
+
+<body>
+   <!-- início do preloader -->
+   <div id="preloader">
+    <div class="inner">
+      <img src="https://cdn-icons-png.flaticon.com/512/600/600429.png"/>
+    </div>
+</div>
+<!-- fim do preloader --> 
+   <header>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><img src="./assets/img/logo_allesblau.png" alt="logo"></label>
+      <ul class="animate__animated animate__fadeIn animate__slow">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="#historia">História</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#manifesto">Livre Para Saborear</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="banner">
+      <img src="./assets/img/PilsonSlide_allesblau.jpg" alt="Garrafa de cerveja Pilsen">
+      <p class="blau write-animation">GO <span id="blau">BLAU</span> FOR A WHILE</p>
+    </div>
+    <div class="allesLogo">
+      <img src="./assets/img/Artboard-1.png" alt="Cervejaria Alles Blau Blumenau">
+    </div>
+    <div id="historia" class="history">
+      <h3>Alles Gut? Alles Blau!</h3>
+      <p>ALLES BLAU significa “tudo bem” ou “tudo joia” em alemão. Para nós, é uma forma de expressar a liberdade de
+        fazer boas escolhas. Nossa cervejaria foi criada para dar vida a brindes que tornam qualquer momento memorável,
+        provocando a incrível sensação de que tudo está bem.</p>
+    <div class="carouselConfig">
+        <img src="./assets/img/recorte.jpg">
+        <img src="./assets/img/recorte1.jpg">
+        <img src="./assets/img/recorte2.jpg">
+        <img src="./assets/img/recorte3.jpg">
+        <img src="./assets/img/recorte4.jpg">
+    </div>
+        
+      </div>
+      <div>
+        <img src="./assets/img/RubensBosio_alles.jpg" alt="Rubens Bósio - Fundador e Cervejeiro" id="owner">
+      </div>
+      <div class="telling">
+        <p>A cervejaria surgiu da união de três amigos, dois empreendedores e um cervejeiro com a comum a paixão por
+          apreciar boas cervejas em boa companhia. A partir daí o sonho começou a tomar corpo, sabor e forma dando vida
+          a uma cervejaria que tem como objetivo somar em qualidade no universo das cervejarias artesanais.
+          Cada criação tem uma história e uma intenção, a fim de agradar aos mais variados paladares.
+          Afinal, cerveja boa é cerveja que você gosta.<br><br>
+
+          Um brinde à liberdade para saborear suas escolhas. Um brinde ao se sentir bem.
+          ALLES BLAU!</p>
+      </div>
+    </div>
+    <div class="produtos">
+      <img src="./assets/img/cervejasallesblau_rótulos.jpg" alt="rotulos das cervejas alles blau">
+      <h3 id="produtos">Conheça nossas cervejas</h3>
+    </div>
+    <div>
+      <div class="row padRow">
+        <div class="catalogo col">
+          <h3>APA</h3>
+          <img src="./assets/img/apa.png" class="btn btn-primary btn-beer" data-bs-toggle="modal"
+            data-bs-target="#exampleModal1" alt="modal button">
+          <div class="modal fade text-modal-color" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Alles Blau APA</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>É uma pale ale que leva os melhores lúpulos americanos. Malte pale, mais claro, possui uma
+                    citricidade
+                    única que convida para um próximo gole.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="catalogo col">
+          <h3>BLOND ALE</h3>
+          <img src="./assets/img/blond_alles.png" class="btn btn-primary btn-beer" data-bs-toggle="modal"
+            data-bs-target="#exampleModal2" alt="modal button">
+          <div class="modal fade text-modal-color" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Alles Blau BLOND ALE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>É uma cerveja no estilo belga com características complexas e sutis. De intensidade média e picante
+                    e
+                    levemente adocicada, possui corpo ideal com ótima drinkabilidade.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="catalogo col">
+          <h3>CATHARINA SOUR</h3>
+          <img src="./assets/img/catharina_alles.png" class="btn btn-primary btn-beer" data-bs-toggle="modal"
+            data-bs-target="#exampleModal3" alt="modal button">
+          <div class="modal fade text-modal-color" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Alles Blau CATHARINA SOUR</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Segue o estilo regional do nosso estado. Uma ale de trigo, clara, leve e refrescante. Seu sabor
+                    contrasta a acidez característica com o dulçor da amora, a qual confere uma coloração avermelhada
+                    singular.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row padRow">
+        <div class="catalogo col">
+          <h3>IMPERIAL STOUT</h3>
+          <img src="./assets/img/imperial_alles.png" class="btn btn-primary btn-beer" data-bs-toggle="modal"
+            data-bs-target="#exampleModal4" alt="modal button">
+          <div class="modal fade text-modal-color" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Alles Blau IMPERIAL STOUT</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>É uma cerveja no estilo belga com características complexas e sutis. De intensidade média e picante
+                    e
+                    levemente adocicada, possui corpo ideal com ótima drinkabilidade.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="catalogo col">
+          <h3>IPA</h3>
+          <img src="./assets/img/ipa.png" class="btn btn-primary btn-beer" data-bs-toggle="modal"
+            data-bs-target="#exampleModal5" alt="modal button">
+          <div class="modal fade text-modal-color" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Alles Blau IPA</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>É uma cerveja intensamente lupulada de amargor marcante. A inicial presença do malte dá lugar para
+                    notas cítricas e final seco, testando a percepção do seu sabor e aroma a cada gole.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="catalogo col">
+          <h3>PILSEN</h3>
+          <img src="./assets/img/Pilsen.png" class="btn btn-primary btn-beer" data-bs-toggle="modal"
+            data-bs-target="#exampleModal6" alt="modal button">
+          <div class="modal fade text-modal-color" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Alles Blau PILSEN</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>É uma cerveja leve, refrescante e com boa presença de malte. Possui baixo amargor, seguindo o
+                    estilo da
+                    escola alemã. Sua coloração é clara e brilhante.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row padRow">
+        <div class="catalogo col">
+          <h3>STRONG GOLDEN ALE</h3>
+          <img src="./assets/img/strong_alles.png" class="btn btn-primary btn-beer" data-bs-toggle="modal"
+            data-bs-target="#exampleModal7" alt="modal button">
+          <div class="modal fade text-modal-color" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Alles Blau STRONG GOLDEN ALE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>É uma ale que segue a escola belga de forma equilibrada. Sua coloração dourada turva caloriza o
+                    corpo
+                    maltado, já a efervescência característica faz com que o alto teor alcoólico abra o paladar para
+                    suas
+                    notas frutadas.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="catalogo col">
+          <h3>WEISS</h3>
+          <img src="./assets/img/weiss_alles.png" class="btn btn-primary btn-beer" data-bs-toggle="modal"
+            data-bs-target="#exampleModal8" alt="modal button">
+          <div class="modal fade text-modal-color" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Alles Blau WEISS</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>É uma cerveja de trigo clara e refrescante, seguindo a escola alemã. Notas de banana e cravo são
+                    combinadas a espuma cremosa e macia, resultante da levedura presente nesta receita a qual provoca
+                    todos
+                    os sentidos.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="catalogo col">
+          <h3>WITBIER</h3>
+          <img src="./assets/img/WITBIER_alles.png" class="btn btn-primary btn-beer" data-bs-toggle="modal"
+            data-bs-target="#exampleModal9" alt="modal button">
+          <div class="modal fade text-modal-color" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Alles Blau WITBIER</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>É uma homenagem a tradicional escola belga com a característica coloração clara e sabor sutil.
+                    Cerveja
+                    a base de trigo, é condimentada com sementes de coentro e casca de limão siciliano, os quais
+                    conferem
+                    aroma e sabor inconfundíveis.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="brazao">
+      <img src="./assets/img/brazoeshome_ales.png" alt="brazão alles blau e Blumenau">
+    </div>
+    <div class="manifesto" id="manifesto">
+      <h3>Manifesto livre para saborear</h3>
+      <p>E SE FOSSE POSSÍVEL PROVAR UM GOLE DE LIBERDADE?</p>
+      <p>PROVAR UMA BEBIDA QUE PARECE PENSADA PARA VOCÊ SE SENTIR BEM E CONTEMPLAR O SEU MOMENTO.</p>
+      <br>
+      <p>E SE A LIBERDADE TIVESSE UM SABOR?</p>
+      <p>SERIA ELE INDECIFRÁVEL COMO AQUELA SENSAÇÃO DE VIVER ALGO EXTRAORDINÁRIO PELA PRIMEIRA VEZ?</p>
+      <p>OU SERIA… INTENSO! COMO A SEGURANÇA DE QUEM SABE O QUE QUER.</p>
+      <p>TALVEZ... AROMÁTICO. REFLETINDO AS MAIS DIVERSAS SENSAÇÕES QUE ACOMPANHAM A LIBERDADE.</p>
+      <p>PODERIA, ATÉ MESMO, SER LEVE. COMO QUANDO OLHAMOS PARA UM CÉU BEM AZUL E SENTIMOS QUE ESTÁ TUDO BEM.</p>
+      <br>
+      <p>SER LIVRE É UM CAMINHO.</p>
+      <br>
+      <p>O CAMINHO QUE ESCOLHEMOS PARA EXPRESSAR NOSSA LIBERDADE TEM A VER COM RECEITAS QUE PROVOCAM NOSSO PALADAR.</p>
+      <p>TEM A VER COM SABOR. TEM A VER COM CERVEJA!</p>
+      <p>CRIAMOS CERVEJAS ARTESANALMENTE PARA QUEM BUSCA, ASSIM COMO NÓS, SABOREAR CADA MOMENTO DA VIDA DE UM JEITO MAIS
+        LIVRE.</p>
+      <br>
+      <p>SER LIVRE É UMA ESCOLHA.</p>
+      <p>UM BRINDE À LIBERDADE PARA SABOREAR SUAS ESCOLHAS.</p>
+      <p>UM BRINDE AO SE SENTIR BEM.</p>
+      <br>
+      <p id="padfoot">ALLES BLAU.</p>
+    </div>
+  </main>
+  <footer>
+    <img src="./assets/img/allesfooter_logo-300x300.png" alt="logo footer">
+    <div class="footerdir">
+      <p>© Copyright 2022 - All Rights Reserved - Amabile Louise Martendal Forster</p>
+    </div>
+    <div class="edu">
+      <p>Todo o conteudo deste site foi utilizado somente para estudos.</p>
+    </div>
+  </footer>
+  <script src="./assets/libs/bootstrap/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="./assets/libs/slick/slick.min.js"></script>
+  <script src="./assets/script.js"></script>
+</body>
+
+</html>

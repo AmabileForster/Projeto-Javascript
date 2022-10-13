@@ -1,0 +1,355 @@
+@media screen and (max-width: 1400px) and (min-width: 1280px) {
+    section{
+        margin: auto;
+    }
+    
+    .padRow{
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width: 1279px) and (min-width: 769px) {
+    section{
+        margin: auto;
+    }
+
+    .padRow{
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+    }
+    
+    .col {
+        flex: 0 0 0%;
+        width: 14em;
+    }
+    
+    h3 {
+        font-size: 19px;
+    }
+    
+    .catalogo>img {
+        width: 14em;
+    }
+    
+
+}
+
+@media (max-width: 1224px) and (min-width: 769px) {
+    .telling p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 550px) {
+    section{
+        margin: auto;
+    }
+
+    .history>h3{
+        font-size: 18px;
+    }
+
+    .history>p{
+        font-size: 14px;
+        margin: 1% 0% 1% 0%;
+        width: 100%;
+        padding: 1%;
+    }
+    
+    .carouselConfig{
+        width: 80%;
+    }
+
+    #owner {
+        width: 30%;
+        margin: 7% 1% 1% 10%;
+    }
+    
+    .telling p {
+        font-size: 15px;
+        margin: 6% 0% 1% 0%;
+        padding: 1%;
+        float: left;
+    }
+    
+    .padRow{
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+    }
+
+        
+    .col {
+        flex: 0 0 0%;
+        width: 14em;
+    }
+    
+    h3 {
+        font-size: 15px;
+    }
+    
+    .catalogo>img {
+        width: 10em;
+    }
+
+    .manifesto>h3{
+        width: 100%;
+        font-size: 18px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .manifesto>p{
+        width: 100%;
+        font-size: 14px;
+        margin: 1% 0% 1% 0%;
+    }
+
+    footer img{
+        width: 12%;
+    }
+
+    .footerdir{
+        font-size: 10px;
+        float: right;
+        margin: 4% 1% 1% 1%;
+    }
+
+    .edu p{
+        text-align: center;
+        font-size: 7px; 
+        float: none;
+    }
+
+}
+
+@media (max-width: 549px) and (min-width: 481px){
+    section{
+        margin: auto;
+    }
+
+    .history>h3{
+        font-size: 18px;
+    }
+
+    .history>p{
+        font-size: 14px;
+        margin: 1% 0% 1% 0%;
+        width: 100%;
+        padding: 1%;
+    }
+    
+    .carouselConfig{
+        width: 80%;
+    }
+
+    #owner{
+        width: 50%;
+        float: none;
+    }
+
+    .telling p{
+        width: 100%;
+        float: none;
+        font-size: 14px;
+        margin: 1% 0% 1% 0%;
+        padding: 1%;
+    }
+    
+    .padRow{
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+    }
+
+        
+    .col {
+        flex: 0 0 0%;
+        width: 12em;
+    }
+    
+    h3 {
+        font-size: 13px;
+    }
+    
+    .catalogo>img {
+        width: 9em;
+    }
+
+    .manifesto>h3{
+        width: 100%;
+        font-size: 18px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .manifesto>p{
+        width: 100%;
+        font-size: 14px;
+        margin: 1% 0% 1% 0%;
+    }
+
+    footer img{
+        width: 17%;
+    }
+
+    .footerdir{
+        font-size: 7px;
+        float: right;
+        margin: 4% 1% 1% 1%;
+    }
+
+    .edu p{
+        text-align: center;
+        font-size: 7px; 
+        float: none;
+    }
+}
+
+
+@media (max-width: 480px) and (min-width: 0) {
+    section{
+        margin: auto;
+    }
+
+    .allesLogo img {
+        margin: auto;
+        width: 70%;
+    }
+
+    .history>h3{
+        font-size: 18px;
+    }
+
+    .history>p{
+        font-size: 14px;
+        margin: 1% 0% 1% 0%;
+        width: 100%;
+        padding: 1%;
+    }
+    
+    .carouselConfig{
+        width: 80%;
+    }
+
+    #owner{
+        width: 50%;
+        float: none;
+    }
+
+    .telling p{
+        width: 100%;
+        float: none;
+        font-size: 14px;
+        margin: 1% 0% 1% 0%;
+        padding: 1%;
+    }
+
+    .padRow{
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+    }
+            
+    .col {
+        flex: 0 0 0%;
+        width: 12em;
+    }
+    
+    h3 {
+        font-size: 9px;
+    }
+    
+    .catalogo>img {
+        width: 6em;
+    }
+
+    .manifesto>h3{
+        width: 100%;
+        font-size: 18px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .manifesto>p{
+        width: 100%;
+        font-size: 14px;
+        margin: 1% 0% 1% 0%;
+    }
+
+    footer img{
+        width: 17%;
+    }
+
+    .footerdir{
+        font-size: 7px;
+        float: right;
+        margin: 4% 1% 1% 1%;
+    }
+
+    .edu p{
+        text-align: center;
+        font-size: 7px; 
+        float: none;
+    }
+
+}
+
+@media (max-width: 952px) {
+    label.logo {
+      font-size: 30px;
+      padding-right: 50px;
+    }
+  
+    nav ul li a {
+      font-size: 16px;
+    }
+}
+  
+  @media (max-width: 858px) {
+    .checkbtn {
+      display: block;
+    }
+  
+    ul {
+      position: fixed;
+      width: 50%;
+      height: 100vh;
+      background: #000000;
+      top: 80px;
+      right: -100%;
+      text-align: center;
+      transition: all .5s;
+      z-index: 30;
+    }
+  
+    nav ul {
+      margin-right: 0;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+  
+    nav ul li a {
+      font-size: 20px;
+    }
+  
+    a:hover {
+      color: #005e6b;
+      transition: .5s;
+    }
+  
+  
+    #check:checked~ul {
+      right: 0;
+    }
+  
+   
+}

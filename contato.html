@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/ff7bc2e5d1.js" crossorigin="anonymous"></script>
+  <link href="./assets/libs/animate/animate.min.css" rel="stylesheet" />
+  <link href="./assets/libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./assets/libs/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="./assets/libs/slick/slick-theme.css"/>
+  <link href="./assets/css/contato.css" rel="stylesheet">
+  <link href="./assets/css/medias.css" rel="stylesheet">
+  <title>Alles Blau</title>
+</head>
+
+<body>
+ <!-- início do preloader -->
+     <div id="preloader">
+      <div class="inner">
+        <span class="spinner-border" role="status" aria-hidden="true" id="titulospinner"></span>
+      </div>
+  </div>
+  <!-- fim do preloader --> 
+  <header>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><img src="./assets/img/logo_allesblau.png" alt="logo" width="100px"></label>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="#historia">História</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#manifesto">Livre Para Saborear</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <div class="container">
+      <div class="content">
+        <div class="left-side">
+          <div class="address details">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Endereço</div>
+            <div class="text-one">Rua Dr. Pedro Zimmermann, 5180</div>
+            <div class="text-two">Itoupava Central, Blumenau/SC</div>
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Telefone</div>
+            <div class="text-one">+55 47 3308-4444</div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">contato@cervejariaallesblau.com.br</div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="topic-text">Envie sua mensagem</div>
+          <form id="form" action="#">
+            <div class="input-box">
+              <input type="text" placeholder="Digite seu nome" class="inputs required" id="inputName" oninput="nameValidate()">
+            </div>
+            <div class="input-box">
+              <input type="email" placeholder="Digite seu melhor email" class="inputs required" id="inputEmail" oninput="emailValidate()">
+            </div>
+            <div class="input-box message-box">
+              <textarea class="inputs" name="descricao" id="descricao" cols="25" rows="10" placeholder="Digite sua mensagem"></textarea>
+            </div>
+            <div>
+              <button class="button" type="submit"><span>Enviar</span></button>
+              <span class="alert alert-danger d-none">Preencha os campos</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <img src="./assets/img/allesfooter_logo-300x300.png"/>
+    <div class="footerdir">
+      <p>© Copyright 2022 - All Rights Reserved - Amabile Louise Martendal Forster</p>
+    </div>
+    <div class="edu">
+      <p>Conteudo deste site foi utilizado somente para estudos.</p>
+    </div>
+  </footer>
+  <script src="./assets/libs/bootstrap/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="./assets/libs/slick/slick.min.js"></script>
+  <script src="./assets/script.js"></script>
+</body>
+
+</html>

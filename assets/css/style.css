@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@400;600&family=Satisfy&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  background: #000000;
+  height: 80px;
+  width: 100%;
+  font-weight: 600;
+}
+
+ul {
+  margin: 0;
+}
+
+label.logo {
+  line-height: 80px;
+  padding: 0 100px;
+}
+
+label.logo>img {
+  width: 100px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 79px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: #00c7e4;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005e6b;
+  transition: .5s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: #00c7e4;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+
+
+.banner {
+  margin: 0;
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  margin: 0;
+}
+
+.blau {
+  position: absolute;
+  bottom: 40%;
+  left: 5%;
+  text-align: center;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: clamp(0.75em, 1em + 3vw, 5em);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#blau {
+  color: #00c7e4;
+}
+
+.write-animation{
+  animation: write 4s 1s normal both;
+}
+
+@keyframes write{
+ from{
+  width: 0;
+ }
+
+ to{
+  width: 80%;
+ }
+}
+
+.allesLogo {
+  display: flex;
+}
+
+.allesLogo img {
+  margin: auto;
+  width: 40%;
+}
+
+.history h3 {
+  width: 60%;
+  margin: auto;
+  padding-top: 3%;
+  text-align: center;
+}
+
+.history p {
+  width: 50%;
+  margin: auto;
+  padding: 2%;
+}
+
+.carouselConfig {
+  width: 50%;
+  margin: auto;
+}
+
+
+
+#owner {
+  display: flex;
+  float: left;
+  margin-top: 6%;
+  margin-left: 25%;
+  margin-right: 1%;
+  width: 15%;
+}
+
+
+.telling p{
+  padding-right: 25%;
+  margin-top: 8%;
+}
+
+.produtos img{
+  width: 100%;
+}
+
+.produtos h3{
+  text-align: center;
+  font-size: clamp(0.75em, 1em + 2vw, 3em)
+}
+
+.btn-beer{
+  background: none;
+  border: none;
+}
+.btn-beer:hover{
+  background: none;
+  border: none;
+}
+
+.text-modal-color{
+  color: #000000;
+}
+
+.catalogo{
+ float: left;
+ text-align: center;
+}
+
+.catalogo img{
+ width: auto;
+}
+
+.catalogo img:hover{
+  animation: 1s pulse 0.5 ease-out both;
+ }
+
+.row{
+  width: 100%;
+  margin: auto;
+  padding: 2% 18% 0% 18%;
+  flex-wrap: nowrap;
+}
+
+.col {
+  flex: 0 0 0%;
+}
+
+.brazao{
+  display: flex;
+}
+
+.brazao img{
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;;
+  margin: auto;
+}
+
+.manifesto h3{
+  font-family: 'Indie Flower', cursive;
+  width: 25%;
+  margin: auto;
+}
+
+.manifesto p{
+  margin: auto;
+  font-family: 'Indie Flower', cursive;
+  width: 45%;
+}
+
+#padfoot{
+  padding-bottom: 1%;
+}
+
+footer{
+  background-color: rgb(22, 22, 22);
+}
+
+footer img{
+  width: 6%;
+  margin: 1%;
+}
+
+.footerdir{
+  float: right;
+  margin-top: 4%;
+  margin-right: 1%;
+  font-size: 10px;
+  color: gray;
+}
+
+.edu p{
+  text-align: center;
+  margin: 0;
+  font-size: 10px;
+  color: gray;
+}
+
+/* inicio Preloader */
+#preloader {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#6e7d80;
+  z-index:999; 
+}
+#preloader .inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
+
+.inner img{
+  width: 80px;
+}
+/* fim Preloader */
+
+
+.slick-dots{
+  position: fixed;
+}
+
